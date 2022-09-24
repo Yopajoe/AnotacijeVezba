@@ -4,8 +4,8 @@ import org.jetbrains.annotations.NotNull;
 
 public interface Test {
 
-    //@MyNonNull
-    @NotNull
+    @MyNonNull
+    //@NotNull
     static String testMetoda(String testParametar){
 
         if(testParametar.equals("hi"))
